@@ -13,6 +13,9 @@ A avaliação final do modelo no conjunto de teste atendeu ao critério de 75% p
 A simulação em novos dados mostrou a capacidade do modelo otimizado em lidar com entradas não vistas.
 
 Por fim, o pipeline proporciona uma base sólida para futuras iterações e refinamentos do modelo. A inclusão de padronização, normalização e otimização de hiperparâmetros contribui para um desempenho robusto. A análise crítica dos resultados é essencial, destacando a importância de métricas apropriadas e uma compreensão profunda do problema em questão.
+
+**LINKS**
+
 Link DataSet: https://raw.githubusercontent.com/tadmonte/Sprint-4---MVP-Qualidade-de-Software-Seguran-a-e-Sistemas-Inteligentes/main/api/database/DataClientesNew.csv
 
 Link MODELO MVP 4: https://colab.research.google.com/drive/1pspe0D3HvhZc-oaKSdXV9Pl249x8x6TP?usp=sharing
