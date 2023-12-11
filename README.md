@@ -9,7 +9,9 @@ Este pequeno projeto faz parte do MVP da Disciplina **Qualidade de Software, Seg
 
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser
 
-Executar o comando: python -m flask run --host 0.0.0.0 --port 5000
+Executar o comando: python -m flask run -- host 0.0.0.0 --port 5000
+
+
 ---
 
 ## **Conclusão do Modelo**
