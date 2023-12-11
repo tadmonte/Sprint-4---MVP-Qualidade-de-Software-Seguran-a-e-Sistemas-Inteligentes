@@ -1,0 +1,96 @@
+[2023-11-13 20:52:46,523] ERROR _log() L96   Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+          ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 223, in locate_app
+    raise NoAppException(
+flask.cli.NoAppException: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/app.py", line 9, in <module>
+    from schemas import *
+  File "/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/__init__.py", line 1, in <module>
+    from schemas.paciente_schema import PacienteSchema,  PacienteBuscaSchema, PacienteViewSchema, PacienteDelSchema, \
+ImportError: cannot import name 'predict_diabetes' from 'schemas.paciente_schema' (/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py) - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
+[2023-11-13 20:53:34,353] INFO _log() L96    * Detected change in '/mnt/g/My Drive/Doutorado/Teaching/SoftEng4IntSysPos/exemplo_mvp/api/schemas/paciente_schema.py', reloading - call_trace=/home/ubuntu/miniconda3/lib/python3.11/site-packages/werkzeug/_internal.py L96  
+[2023-12-07 16:15:23,921] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.179:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:35,758] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:35] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:36,232] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:36] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:36,599] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:36] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:36,626] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:36] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:36,668] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:36] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:36,728] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:36] "GET /openapi/static/images/apidoc.svg HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:37,866] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:37] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:37,968] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:37] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:38,058] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:38] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:38,310] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:38] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:38,674] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:38] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:15:38,883] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:15:38] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:16:01,699] WARNING get_avaliacoes() L50   Não há Avaliacao cadastrados na base :/ - call_trace=C:\Users\aluga.com\Desktop\mvp-qualidade-seguranca-sistemas-inteligentes\exemplo_mvp\api\app.py L50  
+[2023-12-07 16:16:01,709] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:16:01] "[33mGET /avaliacoes HTTP/1.1[0m" 404 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:17:01,525] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.179:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:19,889] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.179:5000 (Press CTRL+C to quit) - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:40,172] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:40] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:40,249] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:40] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:40,604] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:40] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:40,615] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:40] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:40,619] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:40] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:43,110] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:43] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
+[2023-12-07 16:25:43,229] INFO _log() L224  127.0.0.1 - - [07/Dec/2023 16:25:43] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Python311\Lib\site-packages\werkzeug\_internal.py L224 
