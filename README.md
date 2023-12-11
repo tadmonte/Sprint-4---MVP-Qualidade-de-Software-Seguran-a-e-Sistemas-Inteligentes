@@ -16,8 +16,11 @@ Por fim, o pipeline proporciona uma base sólida para futuras iterações e refi
 
 **LINKS**
 
+Link Video: https://www.youtube.com/watch?v=riqYWd0UblY
+OBS: Realizei alterações a fim de melhorar no meu modelo depois de gravar o video, a parte da aplicação está igual. O collab esta atualizado.
+
 Link DataSet: https://raw.githubusercontent.com/tadmonte/Sprint-4---MVP-Qualidade-de-Software-Seguran-a-e-Sistemas-Inteligentes/main/api/database/DataClientesNew.csv
 
 Link MODELO MVP 4: https://colab.research.google.com/drive/1pspe0D3HvhZc-oaKSdXV9Pl249x8x6TP?usp=sharing
 
-Link Classificação dos Modelos com POO e Sem POO https://colab.research.google.com/drive/1a1YSwqdIX4larkQS0ErEPLOusbB-aCE5?usp=sharing
+Link Classificação dos Modelos com POO e Sem POO:  https://colab.research.google.com/drive/1a1YSwqdIX4larkQS0ErEPLOusbB-aCE5?usp=sharing
