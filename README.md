@@ -1,3 +1,19 @@
+# Meu Front
+
+Este pequeno projeto faz parte do MVP da Disciplina **Qualidade de Software, Segurança e Sistemas Inteligentes ** 
+
+
+---
+## Como executar Front
+
+Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
+
+
+## Como executar Back
+
+Executar o comando: python -m flask run --host 0.0.0.0 --port 5000
+
+
 **Conclusão do Modelo**
 
 O notebook utiliza-se de uma base de dados onde recebemos 4 informações relevantes: Receita Total, Limite, Target e Pedidos Feitos, onde analisados busca-se saber se o cliente é potencial ou não.
