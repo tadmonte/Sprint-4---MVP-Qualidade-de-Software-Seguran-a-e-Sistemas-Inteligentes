@@ -1,4 +1,4 @@
-**Conclusão**
+**Conclusão do Modelo**
 
 O notebook utiliza-se de uma base de dados onde recebemos 4 informações relevantes: Receita Total, Limite, Target e Pedidos Feitos, onde analisados busca-se saber se o cliente é potencial ou não.
 
