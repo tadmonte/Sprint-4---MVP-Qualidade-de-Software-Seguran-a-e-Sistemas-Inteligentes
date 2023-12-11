@@ -1,15 +1,13 @@
+
 # Meu Front
 
 Este pequeno projeto faz parte do MVP da Disciplina **Qualidade de Software, Segurança e Sistemas Inteligentes ** 
 
 
 ---
-## Como executar Front
+## Como executar Front e Back
 
-Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
----
-
-## Como executar Back
+Basta fazer o download do projeto e abrir o arquivo index.html no seu browser
 
 Executar o comando: python -m flask run --host 0.0.0.0 --port 5000
 ---
